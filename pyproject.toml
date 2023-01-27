@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chrome-cookies"
+version = "0.1.0"
+description = "get chrome cookies"
+authors = ["Pradyumna Chatterjee <chatterjee.pra@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chrome_cookies"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycookiecheat = "^0.4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
