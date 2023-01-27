@@ -9,5 +9,6 @@ clean:
 	@rm -fR $(INSTALL_PREFIX)/.local/bin
 
 build:
-	poetry run pyinstaller chromecookies.py
-	tar -czvf dist/chromecookies.tar.gz dist/chromecookies
+	@poetry run pyinstaller chromecookies.py
+	@mkdir -p release
+	@tar -czvf release/chromecookies.tar.gz dist/chromecookies
