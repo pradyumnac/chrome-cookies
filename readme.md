@@ -25,6 +25,10 @@ make
 make clean
 ```
 
+```bash
+make uninstall
+```
+
 The binary tar.gz file is built in release dir. Make automatically installs to user's binary folder
 
 # Todo

@@ -2,12 +2,11 @@
 INSTALL_PREFIX := $${HOME}/.local/bin
 PWD := $(shell pwd)
 
-all: clean build install 
+all: clean uninstall build install 
 
 clean:
 	@rm -fR build dist
 	@rm -fR ~/.chromecookies
-	@rm -f $(INSTALL_PREFIX)/chromebookies
 
 build:
 	@poetry run poetry install 
@@ -19,3 +18,6 @@ install:
 	@mkdir -p ~/.chromecookies
 	@cp -r dist/chromecookies/* ~/.chromecookies/
 	@ln -s -f ~/.chromecookies/chromecookies ~/.local/bin/chromecookies
+
+uninstall: 
+	@rm -f $(INSTALL_PREFIX)/chromebookies
