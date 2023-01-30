@@ -1,5 +1,6 @@
-# chromecookies
-get chrome cookies for any site 
+# Chromecookies
+Steal(take control of) your chrome cookies for any site. use thsi to curl from commandline 😄😄
+
 
 # Pre-Requisites
 - For system with gnome-keyring ( Linux)
