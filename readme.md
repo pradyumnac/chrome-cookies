@@ -12,6 +12,7 @@ Steal(take control of) your chrome cookies for any site. use thsi to curl from c
 # Usage
 ```bash
 chromecookies <url basepath>
+# For example
 > chromecookies https://www.youtube.com
 ```
 
