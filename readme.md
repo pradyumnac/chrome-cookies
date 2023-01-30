@@ -34,8 +34,8 @@ The binary tar.gz file is built in release dir. Make automatically installs to u
 - [ ] pipx compatibility
 - [ ] More testing: Ubuntu Gnome only at present
 
-# References
-[Stackoverflow](https://stackoverflow.com/questions/23153159/decrypting-chromium-cookies)
+# References  
+[Stackoverflow](https://stackoverflow.com/questions/23153159/decrypting-chromium-cookies)  
 [Dict to Nescape cookies](https://github.com/Neolyum/JsonToNetscape/blob/master/convert.py)
 
 # Disclamer
