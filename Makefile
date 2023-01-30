@@ -7,7 +7,7 @@ all: clean build install
 clean:
 	@rm -fR build dist
 	@rm -fR ~/.chromecookies
-	@rm -fR $(INSTALL_PREFIX)/.local/bin
+	@rm -f $(INSTALL_PREFIX)/chromebookies
 
 build:
 	@poetry run poetry install 
