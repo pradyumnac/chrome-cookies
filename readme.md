@@ -27,12 +27,12 @@ make clean
 The binary tar.gz file is built in release dir. Make automatically installs to user's binary folder
 
 # Todo
-- [ ] Print out cookie data in nestscape cookie jar format. 
-- [ ] curl compatibility
+- [x] Print out cookie data in nestscape cookie jar format. 
+- [X] curl compatibility
 - [ ] Reduce binar tar size
 - [ ] Release in pip
 - [ ] pipx compatibility
-- [ ] More testing: Ubuntu Gnome (
+- [ ] More testing: Ubuntu Gnome only at present
 
 # References
 [Stackoverflow](https://stackoverflow.com/questions/23153159/decrypting-chromium-cookies)
