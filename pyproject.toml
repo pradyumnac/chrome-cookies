@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "get chrome cookies"
 authors = ["Pradyumna Chatterjee <chatterjee.pra@gmail.com>"]
 readme = "README.md"
-packages = [{include = "chrome_cookies"}]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<3.12"
