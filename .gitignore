@@ -3,3 +3,5 @@ build
 dist
 release
 
+# has private data
+testdata 
