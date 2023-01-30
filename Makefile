@@ -6,7 +6,6 @@ all: clean uninstall build install
 
 clean:
 	@rm -fR build dist
-	@rm -fR ~/.chromecookies
 
 build:
 	@poetry run poetry install 
@@ -21,3 +20,4 @@ install:
 
 uninstall: 
 	@rm -f $(INSTALL_PREFIX)/chromebookies
+	@rm -fR ~/.chromecookies
